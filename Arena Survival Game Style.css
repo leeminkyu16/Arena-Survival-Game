@@ -1,0 +1,91 @@
+.divRight {
+    text-align: center;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0 ;
+    right: 0;
+    background-color: #313131;
+}
+
+.divRight h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.divRight input {
+    border-radius: 5%;
+    text-align: center;
+    width: 80%;
+    padding: 2%;
+    background-color: #525252; 
+    color: white;
+}
+
+.divRight input:disabled {
+    background-color: #404040;
+}
+
+.divRight table{
+    text-align: center;
+    width: 90%;
+}
+
+.divRight th{
+    color: white;
+}
+
+.divRight td{
+    color: white;
+}
+
+.divRightText {
+    text-align: left;
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+}
+
+.divRightTextCenter {
+    text-align: center;
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+}
+
+.divRightTr:hover{
+    background-color: #404040;
+}
+
+.divBottom {
+    text-align: left;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0 ;
+    left: 0;
+    background-color: #313131;
+}
+
+.divBottom p{ 
+    float: left;
+    display: block;
+    color: white;
+    font-size: 125%;
+    padding-left: 3%;
+}
+
+#canvasMain {
+    padding: 1;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 20%;
+    bottom: 30%;
+    left: 3%;
+    right: 33%;
+    border-style: groove;
+}
