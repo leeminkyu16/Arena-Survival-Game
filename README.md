@@ -1,2 +1,2 @@
-# Arena-Survival-Game
-A simple second-person survival game.
+# Arena Survival Game
+A simple web-based second-person survival game.
