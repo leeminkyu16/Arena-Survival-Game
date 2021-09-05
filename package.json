@@ -1,0 +1,14 @@
+{
+  "name": "arena-survival-game",
+  "version": "1.0.0",
+  "description": "A survival game using vue.js, mongodb, socket.io, among other frameworks and tools",
+  "main": "index.js",
+  "scripts": {
+    "serve": "concurrently \"npm run db\" \"npm run ws\" \"npm run vue\"",
+    "db": "cd mongodb && npm run serve",
+    "ws": "cd web_socket && npm run serve",
+    "vue": "cd vue && npm run serve"
+  },
+  "author": "Min-Kyu Lee",
+  "license": "ISC"
+}
