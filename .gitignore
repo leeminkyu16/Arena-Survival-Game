@@ -1,0 +1,9 @@
+node_modules
+database/node_modules
+frontend/node_modules
+websocket/node_modules
+package-lock.json
+database/package-lock.json
+frontend/package-lock.json
+websocket/package-lock.json
+.env

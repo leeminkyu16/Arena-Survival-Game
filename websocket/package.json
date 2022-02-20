@@ -1,0 +1,25 @@
+{
+  "name": "arena-survival-game-websocket",
+  "version": "1.0.0",
+  "description": "Socket.io with Express",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "socket.io",
+    "express"
+  ],
+  "author": "Min-Kyu Lee",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

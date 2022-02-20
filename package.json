@@ -4,11 +4,19 @@
   "description": "A survival game using vue.js, mongodb, socket.io, among other frameworks and tools",
   "main": "index.js",
   "scripts": {
-    "serve": "concurrently \"npm run db\" \"npm run ws\" \"npm run vue\"",
-    "db": "cd mongodb && npm run serve",
-    "ws": "cd web_socket && npm run serve",
-    "vue": "cd vue && npm run serve"
+    "serve": "concurrently \"npm run db\" \"npm run ws\" \"npm run frontend\"",
+    "install": "concurrently \"npm run db-install\" \"npm run ws-install\" \"npm run frontend-install\"",
+    "first-install": "npm i && npm run install",
+    "db": "cd database && npm run serve",
+    "ws": "cd websocket && npm run serve",
+    "frontend": "cd frontend && npm run serve",
+    "db-install": "cd database && npm i",
+    "ws-install": "cd websocket && npm i",
+    "frontend-install": "cd frontend && npm i"
   },
   "author": "Min-Kyu Lee",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
 }

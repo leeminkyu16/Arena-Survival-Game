@@ -1,0 +1,5 @@
+@for $i from 1 through 7 {
+    .button-#{$i} {
+        width: min(100%, 40% + ($i * 10))
+    }
+}

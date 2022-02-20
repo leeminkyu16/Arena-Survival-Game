@@ -1,0 +1,41 @@
+.title-text {
+  padding: 10% 0% 10% 0%;
+  margin: 5% 15% 0 15%;
+  border-radius: 3%;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button-title {
+  padding: 3% 0 3% 0;
+}
+
+.main-button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10%;
+  padding: 2%;
+  white-space: nowrap;
+  width: 100%;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.main-text {
+  text-align: center;
+}
+
+.spacer {
+  padding: 5%;
+}
+
+.button-container {
+  padding: 3%;
+  border-radius: 2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.3);
+}
